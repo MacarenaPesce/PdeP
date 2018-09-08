@@ -153,3 +153,4 @@ cantidadEncargos(Personaje, Cantidad) :-
   personaje(Personaje, _),
   findall(Encargo, encargo(_, Personaje, Encargo), Encargos),
   length(Encargos, Cantidad).
+
